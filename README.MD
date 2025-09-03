@@ -1,0 +1,1 @@
+存储amis-server为中打包的amis.asar的解压文件，用于jsdelivr使用
