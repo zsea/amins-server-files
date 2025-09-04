@@ -9,5 +9,5 @@
 使用```hadmin```0.5.0以上版本，添加以下参数启动。
 
 ```
---amis https://cdn.jsdelivr.net/gh/zsea/amis-server@master/0.4.1```
+--amis https://cdn.jsdelivr.net/gh/zsea/amis-server@master/0.4.1
 ```
