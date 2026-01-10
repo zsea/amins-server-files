@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>管理后台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <script src="/html/assests/loader.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            HAdminLoader([
+                {
+                    src: "/html/assests/title.js",
+                    type: "js",
+                    amis: true
+                },
+                {
+                    src: "/html/amis/sdk.css",
+                    type: "css",
+                    amis: true
+                },
+                {
+                    src: "/html/amis/helper.css",
+                    type: "css",
+                    amis: true
+                },
+                {
+                    src: "/html/amis/iconfont.css",
+                    type: "css",
+                    amis: true
+                },
+                {
+                    src: "/html/amis/logo.png",
+                    type: "icon"
+                },
+                {
+                    src: "/html/crypto/core.min.js",
+                    type: "js",
+                    amis: true
+                },
+                {
+                    src: "/html/crypto/md5.js",
+                    type: "js",
+                    amis: true
+                },
+                {
+                    src: "/api/amis/schema.js",
+                    type: "js"
+                },
+                {
+                    src: "/html/amis/sdk.js",
+                    type: "js",
+                    amis: true
+                },
+                {
+                    src: "/html/assests/master.js",
+                    type: "js",
+                    amis: true
+                },
+                {
+                    src: "/html/assests/master.css",
+                    type: "css",
+                    amis: true
+                }
+            ]);
+        });
+    </script>
+    <link rel="stylesheet" href="/html/assests/loading.css" />
+    
+    <style>
+        html,
+        body,
+        .app-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading"></div>
+    <div id="root" class="app-wrapper"></div>
+
+    <style>
+        .amis-editor-box {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1300;
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+    
+</body>
+
+</html>
